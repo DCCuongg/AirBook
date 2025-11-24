@@ -1,0 +1,156 @@
+/* ---------------------------
+   Font & Reset cơ bản
+---------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  color: #03121A;
+}
+
+/* ---------------------------
+   Header tổng
+---------------------------- */
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 70px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+/* ---------------------------
+   1. Logo
+---------------------------- */
+.header-logo .logo-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #0194F3;
+  /* màu logo xanh */
+  letter-spacing: 1px;
+}
+
+/* ---------------------------
+   2. Navigation Menu
+---------------------------- */
+.header-nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.header-nav a {
+  text-decoration: none;
+}
+
+.nav-link-text,
+.more-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #687176;
+  transition: color 0.2s ease;
+}
+
+.nav-link-text:hover,
+.more-text:hover {
+  color: #0194F3;
+  cursor: pointer;
+}
+
+.header-more {
+  position: relative;
+}
+
+/* ---------------------------
+   3. Quick Links
+---------------------------- */
+.header-quick-links {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.quick-link-text,
+.support-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #687176;
+  transition: color 0.2s ease;
+}
+
+.quick-link-text:hover,
+.support-text:hover {
+  color: #0194F3;
+  cursor: pointer;
+}
+
+/* ---------------------------
+   4. Language & Currency
+---------------------------- */
+.header-lang-currency {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  color: #03121A;
+  cursor: pointer;
+}
+
+.header-lang-currency:hover {
+  color: #0194F3;
+}
+
+/* ---------------------------
+   5. User Account
+---------------------------- */
+.header-user-account {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.login-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: #03121A;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.login-text:hover {
+  color: #0194F3;
+}
+
+.register-btn {
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #0194F3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.register-btn:hover {
+  background-color: #0172c1;
+}
+
+/* ---------------------------
+   Responsive nhỏ
+---------------------------- */
+@media (max-width: 1024px) {
+
+  .header-nav,
+  .header-quick-links {
+    display: none;
+    /* ẩn menu để làm mobile menu riêng */
+  }
+}

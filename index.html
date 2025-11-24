@@ -1,0 +1,132 @@
+`
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <!-- 1. Logo -->
+    <div class="header-logo">
+      <a href="#"><span class="logo-text"><!-- Logo ở đây --></span></a>
+    </div>
+
+    <!-- 2. Navigation Menu (Products/Services) -->
+    <nav class="header-nav">
+      <a href="#"><span class="nav-link-text">Hotels</span></a>
+      <a href="#"><span class="nav-link-text">Flights</span></a>
+      <a href="#"><span class="nav-link-text">Bus & Shuttle</span></a>
+      <a href="#"><span class="nav-link-text">Airport Transfer</span></a>
+      <a href="#"><span class="nav-link-text">Car Rental</span></a>
+      <a href="#"><span class="nav-link-text">Things to Do</span></a>
+      <div class="header-more">
+        <span class="more-text">More</span>
+        <!-- Dropdown nếu cần -->
+      </div>
+    </nav>
+
+    <!-- 3. Quick Links -->
+    <div class="header-quick-links">
+      <a href="#"><span class="quick-link-text">Deals</span></a>
+      <div class="header-support">
+        <span class="support-text">Support</span>
+        <!-- Dropdown Support -->
+      </div>
+      <a href="#"><span class="quick-link-text">Partnership</span></a>
+      <a href="#"><span class="quick-link-text">Bookings</span></a>
+    </div>
+
+    <!-- 4. Language & Currency -->
+    <div class="header-lang-currency">
+      <span class="lang-currency-text">VND | EN</span>
+      <!-- Language & Currency selector -->
+    </div>
+
+    <!-- 5. User Account -->
+    <div class="header-user-account">
+      <a href="#" class="login"><span class="login-text">Log In</span></a>
+      <button class="register-btn"><span class="register-text">Register</span></button>
+    </div>
+  </header>
+
+
+  <main>
+    <!-- Bộ lọc chuyến bay -->
+    <section id="flight-filter">
+      <h2>Filter Flights</h2>
+      <form>
+        <!-- Giờ bay -->
+        <label>
+          Departure Time:
+          <select name="departure-time">
+            <option value="12-18">12:00 - 18:00</option>
+            <option value="18-24">18:00 - 24:00</option>
+          </select>
+        </label>
+
+        <!-- Flight Duration -->
+        <label>
+          Flight Duration:
+          <select name="duration">
+            <option value="0-36">0h - 36h</option>
+          </select>
+        </label>
+
+        <!-- Transit Points -->
+        <label>
+          Transit Points:
+          <select name="transit">
+            <option value="direct">Direct</option>
+            <option value="1-stop">1 Stop</option>
+          </select>
+        </label>
+
+        <!-- Price / Passenger -->
+        <label>
+          Max Price:
+          <input type="number" name="max-price" placeholder="VND">
+        </label>
+
+        <button type="submit">Search</button>
+      </form>
+    </section>
+
+    <!-- Danh sách chuyến bay -->
+    <section id="flight-list">
+      <h2>Available Flights</h2>
+
+      <article class="flight">
+        <div class="airline">Thai AirAsia</div>
+        <div class="route">
+          <span class="from">SGN</span> → <span class="to">DMK</span>
+        </div>
+        <div class="time">18:05 - 19:45</div>
+        <div class="duration">1h 40m</div>
+        <div class="price">2.055.240 VND/pax</div>
+        <button class="choose-flight">Choose</button>
+      </article>
+
+      <article class="flight">
+        <div class="airline">Vietravel Airlines</div>
+        <div class="route">
+          <span class="from">SGN</span> → <span class="to">BKK</span>
+        </div>
+        <div class="time">12:00 - 13:40</div>
+        <div class="duration">1h 40m</div>
+        <div class="price">2.390.850 VND/pax</div>
+        <button class="choose-flight">Choose</button>
+      </article>
+
+      <!-- Thêm các chuyến bay khác tương tự -->
+    </section>
+  </main>
+
+  <footer></footer>
+</body>
+
+</html>
