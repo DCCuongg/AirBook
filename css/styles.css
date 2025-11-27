@@ -1,156 +1,73 @@
-/* ---------------------------
-   Font & Reset cơ bản
----------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-
-body {
-  margin: 0;
-  font-family: 'Inter', sans-serif;
-  color: #03121A;
+* {
+  padding: 0px;
+  margin: 0px;
+  /* border: 1px solid blue; */
+  font-size: 22px;
+  font-weight: 540;
 }
 
-/* ---------------------------
-   Header tổng
----------------------------- */
+.icon {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  width: auto;
+  height: 0.7rem;
+}
+
+/* site-header................. */
 .site-header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 0 20px;
-  height: 70px;
-  background-color: #ffffff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-  position: sticky;
-  top: 0;
-  z-index: 999;
+  padding: 1px 12px;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
-/* ---------------------------
-   1. Logo
----------------------------- */
-.header-logo .logo-text {
-  font-size: 24px;
-  font-weight: 700;
-  color: #0194F3;
-  /* màu logo xanh */
-  letter-spacing: 1px;
+.logo-image {
+  width: 135px;
+  height: 60px;
 }
 
-/* ---------------------------
-   2. Navigation Menu
----------------------------- */
-.header-nav {
-  display: flex;
-  gap: 20px;
-  align-items: center;
+.logo-image img {
+  width: auto;
+  height: 95%;
 }
 
-.header-nav a {
-  text-decoration: none;
+.site-option {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 1rem;
+  place-items: center;
+  padding: 10px 20px;
 }
 
-.nav-link-text,
-.more-text {
-  font-size: 14px;
-  font-weight: 500;
-  color: #687176;
-  transition: color 0.2s ease;
+.site-option>* {
+  box-sizing: border-box;
+  height: 100%;
+  place-content: center;
+  border-radius: 5px;
+  padding: 5px 10px;
+  white-space: nowrap;
 }
 
-.nav-link-text:hover,
-.more-text:hover {
-  color: #0194F3;
+.site-option>*:hover {
   cursor: pointer;
+  background-color: rgb(240, 240, 240);
 }
 
-.header-more {
-  position: relative;
+.log-in {
+  border: 2px solid rgb(1, 148, 243);
 }
 
-/* ---------------------------
-   3. Quick Links
----------------------------- */
-.header-quick-links {
-  display: flex;
-  gap: 15px;
-  align-items: center;
-}
-
-.quick-link-text,
-.support-text {
-  font-size: 14px;
-  font-weight: 500;
-  color: #687176;
-  transition: color 0.2s ease;
-}
-
-.quick-link-text:hover,
-.support-text:hover {
-  color: #0194F3;
-  cursor: pointer;
-}
-
-/* ---------------------------
-   4. Language & Currency
----------------------------- */
-.header-lang-currency {
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-  font-weight: 500;
-  color: #03121A;
-  cursor: pointer;
-}
-
-.header-lang-currency:hover {
-  color: #0194F3;
-}
-
-/* ---------------------------
-   5. User Account
----------------------------- */
-.header-user-account {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-
-.login-text {
-  font-size: 14px;
-  font-weight: 500;
-  color: #03121A;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.login-text:hover {
-  color: #0194F3;
-}
-
-.register-btn {
-  padding: 6px 16px;
-  font-size: 14px;
-  font-weight: 600;
-  background-color: #0194F3;
+.register {
+  background-color: rgb(1, 148, 243);
   color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
+  font-weight: bold;
 }
 
-.register-btn:hover {
-  background-color: #0172c1;
+.register:hover {
+  background-color: rgb(102, 98, 228);
+  color: white;
 }
 
-/* ---------------------------
-   Responsive nhỏ
----------------------------- */
-@media (max-width: 1024px) {
-
-  .header-nav,
-  .header-quick-links {
-    display: none;
-    /* ẩn menu để làm mobile menu riêng */
-  }
-}
+/* site-main................. */
