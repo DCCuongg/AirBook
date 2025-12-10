@@ -267,6 +267,18 @@
                   onclick="this.previousElementSibling.value=Math.max(1, parseInt(this.previousElementSibling.value)-1)">-</button>
               </div>
             </div>
+            <div class="select-time">
+              <p>Departure Date</p>
+              <label>
+                <input type="checkbox" name="icon">
+                <div class="checkbox-icon">✔</div>
+                <div class="checkbox-label">
+                  Return Date
+                </div>
+              </label>
+              <input type="date">
+              <input type="date">
+            </div>
             <div class="select-airport">
               <div class="airport-input">
                 <p>From</p>
@@ -299,8 +311,116 @@
                 <div class="airport-container"></div>
               </div>
             </div>
-            <div class="select-flight">
-
+          </div>
+          <div class="selected-flight">
+            <h4>All flights</h4>
+            <div class="flight">
+              <div class="flight-main-info">
+                <div class="flight-airline">
+                  <img src="./images/vn-airline.png" alt="vietnam-airlines-logo" class="icon">
+                  Vietnam Airlines
+                </div>
+                <div class="flight-time">
+                  <div class="flight-departure">
+                    <p class="time">07:00</p>
+                    <p>Saigon</p>
+                  </div>
+                  <div class="flight-duration">
+                    <p>1h 25m</p>
+                    <p class="arrow-through">Direct</p>
+                  </div>
+                  <div class="flight-departure">
+                    <p class="time">07:00</p>
+                    <p>Saigon</p>
+                  </div>
+                </div>
+                <div class="flight-price">
+                  <p>3,500,000 VND<span class="pax">/pax<span></p>
+                </div>
+              </div>
+              <div class="choose-flight"><button>Choose</button></div>
+              <div class="flight-additional-info">
+                <div class="filter-facilities">
+                  <details>
+                    <summary>
+                      <h3>Facilities</h3>
+                      <h3>
+                        <img src="./images/up.png" alt="icon" class="icon">
+                      </h3>
+                    </summary>
+                    <div class="list-selection">
+                      <label>
+                        <input type="checkbox" name="icon">
+                        <div class="checkbox-icon">✔</div>
+                        <div class="checkbox-label">
+                          <p>Baggages</p>
+                          <img src="./images/bag.png" alt="vietnam-airlines-logo" class="icon">
+                        </div>
+                      </label>
+                      <label>
+                        <input type="checkbox" name="icon">
+                        <div class="checkbox-icon">✔</div>
+                        <div class="checkbox-label">
+                          <p>Meals</p>
+                          <img src="./images/meal.png" alt="vietnam-airlines-logo" class="icon">
+                        </div>
+                      </label>
+                      <label>
+                        <input type="checkbox" name="icon">
+                        <div class="checkbox-icon">✔</div>
+                        <div class="checkbox-label">
+                          <p>In-flight entertainment</p>
+                          <img src="./images/entertain.png" alt="vietnam-airlines-logo" class="icon">
+                        </div>
+                      </label>
+                      <label>
+                        <input type="checkbox" name="icon">
+                        <div class="checkbox-icon">✔</div>
+                        <div class="checkbox-label">
+                          <p>Wifi</p>
+                          <img src="./images/wifi.png" alt="vietnam-airlines-logo" class="icon">
+                        </div>
+                      </label>
+                      <label>
+                        <input type="checkbox" name="icon">
+                        <div class="checkbox-icon">✔</div>
+                        <div class="checkbox-label">
+                          <p>Power/USB port</p>
+                          <img src="./images/power.png" alt="vietnam-airlines-logo" class="icon">
+                        </div>
+                      </label>
+                    </div>
+                  </details>
+                </div>
+                <div class="filter-refund">
+                  <details>
+                    <summary>
+                      <h3>Refund &amp; Reschedule</h3>
+                      <h3>
+                        <img src="./images/up.png" alt="icon" class="icon">
+                      </h3>
+                    </summary>
+                    <div class="list-selection">
+                      <label>
+                        <input type="checkbox" name="icon">
+                        <div class="checkbox-icon">✔</div>
+                        <div class="checkbox-label">
+                          <p>Refundable</p>
+                          <img src="./images/refund.png" alt="vietnam-airlines-logo" class="icon">
+                        </div>
+                      </label>
+                      <label>
+                        <input type="checkbox" name="icon">
+                        <div class="checkbox-icon">✔</div>
+                        <div class="checkbox-label">
+                          <p>Reschedule available</p>
+                          <img src="./images/reschedule.png" alt="vietnam-airlines-logo" class="icon">
+                        </div>
+                      </label>
+                    </div>
+                  </details>
+                </div>
+              </div>
             </div>
           </div>
         </div>

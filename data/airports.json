@@ -1,0 +1,72 @@
+[
+  {
+    "MaSB": "SGN",
+    "TenSB": "Tân Sơn Nhất International Airport",
+    "IATA_Code": "SGN",
+    "QuocGia": "Vietnam",
+    "ThanhPho": "Ho Chi Minh City"
+  },
+  {
+    "MaSB": "HAN",
+    "TenSB": "Nội Bài International Airport",
+    "IATA_Code": "HAN",
+    "QuocGia": "Vietnam",
+    "ThanhPho": "Hanoi"
+  },
+  {
+    "MaSB": "DAD",
+    "TenSB": "Đà Nẵng International Airport",
+    "IATA_Code": "DAD",
+    "QuocGia": "Vietnam",
+    "ThanhPho": "Da Nang"
+  },
+  {
+    "MaSB": "BKK",
+    "TenSB": "Suvarnabhumi Airport",
+    "IATA_Code": "BKK",
+    "QuocGia": "Thailand",
+    "ThanhPho": "Bangkok"
+  },
+  {
+    "MaSB": "KUL",
+    "TenSB": "Kuala Lumpur International Airport",
+    "IATA_Code": "KUL",
+    "QuocGia": "Malaysia",
+    "ThanhPho": "Kuala Lumpur"
+  },
+  {
+    "MaSB": "SIN",
+    "TenSB": "Changi Airport",
+    "IATA_Code": "SIN",
+    "QuocGia": "Singapore",
+    "ThanhPho": "Singapore"
+  },
+  {
+    "MaSB": "NRT",
+    "TenSB": "Narita International Airport",
+    "IATA_Code": "NRT",
+    "QuocGia": "Japan",
+    "ThanhPho": "Tokyo"
+  },
+  {
+    "MaSB": "ICN",
+    "TenSB": "Incheon International Airport",
+    "IATA_Code": "ICN",
+    "QuocGia": "South Korea",
+    "ThanhPho": "Seoul"
+  },
+  {
+    "MaSB": "LAX",
+    "TenSB": "Los Angeles International Airport",
+    "IATA_Code": "LAX",
+    "QuocGia": "United States",
+    "ThanhPho": "Los Angeles"
+  },
+  {
+    "MaSB": "DXB",
+    "TenSB": "Dubai International Airport",
+    "IATA_Code": "DXB",
+    "QuocGia": "United Arab Emirates",
+    "ThanhPho": "Dubai"
+  }
+]
