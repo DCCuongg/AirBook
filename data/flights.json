@@ -188,5 +188,803 @@
         "Gia": 3890000
       }
     }
+  },
+  {
+    "MaCB": "VN501",
+    "GioDi": "2025-12-12T06:10",
+    "GioDen": "2025-12-12T07:55",
+    "ThoiGianBay": "1h45m",
+    "SanBay_Di": {
+      "MaSB": "SGN",
+      "TenSB": "Tân Sơn Nhất International Airport",
+      "IATA_Code": "SGN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Ho Chi Minh City"
+    },
+    "SanBay_Den": {
+      "MaSB": "HAN",
+      "TenSB": "Nội Bài International Airport",
+      "IATA_Code": "HAN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Hanoi"
+    },
+    "MayBay": {
+      "MaMB": "A321",
+      "SucChua": 220,
+      "NSX": "Airbus",
+      "MaHHK": "VN"
+    },
+    "HangHangKhong": {
+      "MaHHK": "VN",
+      "TenHHK": "Vietnam Airlines",
+      "SDT": "+84 1900 1100",
+      "Website": "https://www.vietnamairlines.com",
+      "Email": "support@vietnamairlines.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 2480000
+      }
+    }
+  },
+  {
+    "MaCB": "VN502",
+    "GioDi": "2025-12-12T17:20",
+    "GioDen": "2025-12-12T19:05",
+    "ThoiGianBay": "1h45m",
+    "SanBay_Di": {
+      "MaSB": "HAN",
+      "TenSB": "Nội Bài International Airport",
+      "IATA_Code": "HAN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Hanoi"
+    },
+    "SanBay_Den": {
+      "MaSB": "SGN",
+      "TenSB": "Tân Sơn Nhất International Airport",
+      "IATA_Code": "SGN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Ho Chi Minh City"
+    },
+    "MayBay": {
+      "MaMB": "B787",
+      "SucChua": 280,
+      "NSX": "Boeing",
+      "MaHHK": "VN"
+    },
+    "HangHangKhong": {
+      "MaHHK": "VN",
+      "TenHHK": "Vietnam Airlines",
+      "SDT": "+84 1900 1100",
+      "Website": "https://www.vietnamairlines.com",
+      "Email": "support@vietnamairlines.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 2500000
+      }
+    }
+  },
+  {
+    "MaCB": "VJ601",
+    "GioDi": "2025-12-13T09:00",
+    "GioDen": "2025-12-13T10:35",
+    "ThoiGianBay": "1h35m",
+    "SanBay_Di": {
+      "MaSB": "DAD",
+      "TenSB": "Đà Nẵng International Airport",
+      "IATA_Code": "DAD",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Da Nang"
+    },
+    "SanBay_Den": {
+      "MaSB": "SGN",
+      "TenSB": "Tân Sơn Nhất International Airport",
+      "IATA_Code": "SGN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Ho Chi Minh City"
+    },
+    "MayBay": {
+      "MaMB": "A320",
+      "SucChua": 180,
+      "NSX": "Airbus",
+      "MaHHK": "VJ"
+    },
+    "HangHangKhong": {
+      "MaHHK": "VJ",
+      "TenHHK": "VietJet Air",
+      "SDT": "+84 1900 1886",
+      "Website": "https://www.vietjetair.com",
+      "Email": "support@vietjetair.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 1800000
+      }
+    }
+  },
+  {
+    "MaCB": "VJ602",
+    "GioDi": "2025-12-13T14:45",
+    "GioDen": "2025-12-13T16:20",
+    "ThoiGianBay": "1h35m",
+    "SanBay_Di": {
+      "MaSB": "SGN",
+      "TenSB": "Tân Sơn Nhất International Airport",
+      "IATA_Code": "SGN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Ho Chi Minh City"
+    },
+    "SanBay_Den": {
+      "MaSB": "DAD",
+      "TenSB": "Đà Nẵng International Airport",
+      "IATA_Code": "DAD",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Da Nang"
+    },
+    "MayBay": {
+      "MaMB": "A321",
+      "SucChua": 230,
+      "NSX": "Airbus",
+      "MaHHK": "VJ"
+    },
+    "HangHangKhong": {
+      "MaHHK": "VJ",
+      "TenHHK": "VietJet Air",
+      "SDT": "+84 1900 1886",
+      "Website": "https://www.vietjetair.com",
+      "Email": "support@vietjetair.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 1750000
+      }
+    }
+  },
+  {
+    "MaCB": "QH701",
+    "GioDi": "2025-12-14T07:40",
+    "GioDen": "2025-12-14T09:20",
+    "ThoiGianBay": "1h40m",
+    "SanBay_Di": {
+      "MaSB": "SGN",
+      "TenSB": "Tân Sơn Nhất International Airport",
+      "IATA_Code": "SGN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Ho Chi Minh City"
+    },
+    "SanBay_Den": {
+      "MaSB": "DAD",
+      "TenSB": "Đà Nẵng International Airport",
+      "IATA_Code": "DAD",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Da Nang"
+    },
+    "MayBay": {
+      "MaMB": "A320",
+      "SucChua": 180,
+      "NSX": "Airbus",
+      "MaHHK": "QH"
+    },
+    "HangHangKhong": {
+      "MaHHK": "QH",
+      "TenHHK": "Bamboo Airways",
+      "SDT": "+84 1900 1166",
+      "Website": "https://www.bambooairways.com",
+      "Email": "support@bambooairways.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 3100000
+      }
+    }
+  },
+  {
+    "MaCB": "QH702",
+    "GioDi": "2025-12-14T18:00",
+    "GioDen": "2025-12-14T19:40",
+    "ThoiGianBay": "1h40m",
+    "SanBay_Di": {
+      "MaSB": "DAD",
+      "TenSB": "Đà Nẵng International Airport",
+      "IATA_Code": "DAD",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Da Nang"
+    },
+    "SanBay_Den": {
+      "MaSB": "SGN",
+      "TenSB": "Tân Sơn Nhất International Airport",
+      "IATA_Code": "SGN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Ho Chi Minh City"
+    },
+    "MayBay": {
+      "MaMB": "A321",
+      "SucChua": 220,
+      "NSX": "Airbus",
+      "MaHHK": "QH"
+    },
+    "HangHangKhong": {
+      "MaHHK": "QH",
+      "TenHHK": "Bamboo Airways",
+      "SDT": "+84 1900 1166",
+      "Website": "https://www.bambooairways.com",
+      "Email": "support@bambooairways.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 3150000
+      }
+    }
+  },
+  {
+    "MaCB": "TR301",
+    "GioDi": "2025-12-15T08:15",
+    "GioDen": "2025-12-15T11:25",
+    "ThoiGianBay": "3h10m",
+    "SanBay_Di": {
+      "MaSB": "SGN",
+      "TenSB": "Tân Sơn Nhất International Airport",
+      "IATA_Code": "SGN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Ho Chi Minh City"
+    },
+    "SanBay_Den": {
+      "MaSB": "SIN",
+      "TenSB": "Changi Airport",
+      "IATA_Code": "SIN",
+      "QuocGia": "Singapore",
+      "ThanhPho": "Singapore"
+    },
+    "MayBay": {
+      "MaMB": "A320",
+      "SucChua": 180,
+      "NSX": "Airbus",
+      "MaHHK": "TR"
+    },
+    "HangHangKhong": {
+      "MaHHK": "TR",
+      "TenHHK": "Scoot Airlines",
+      "SDT": "+65 3157 6434",
+      "Website": "https://www.flyscoot.com",
+      "Email": "support@flyscoot.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 4200000
+      }
+    }
+  },
+  {
+    "MaCB": "TR302",
+    "GioDi": "2025-12-15T12:50",
+    "GioDen": "2025-12-15T16:00",
+    "ThoiGianBay": "3h10m",
+    "SanBay_Di": {
+      "MaSB": "SIN",
+      "TenSB": "Changi Airport",
+      "IATA_Code": "SIN",
+      "QuocGia": "Singapore",
+      "ThanhPho": "Singapore"
+    },
+    "SanBay_Den": {
+      "MaSB": "SGN",
+      "TenSB": "Tân Sơn Nhất International Airport",
+      "IATA_Code": "SGN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Ho Chi Minh City"
+    },
+    "MayBay": {
+      "MaMB": "A321",
+      "SucChua": 210,
+      "NSX": "Airbus",
+      "MaHHK": "TR"
+    },
+    "HangHangKhong": {
+      "MaHHK": "TR",
+      "TenHHK": "Scoot Airlines",
+      "SDT": "+65 3157 6434",
+      "Website": "https://www.flyscoot.com",
+      "Email": "support@flyscoot.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 4300000
+      }
+    }
+  },
+  {
+    "MaCB": "CX901",
+    "GioDi": "2025-12-16T15:30",
+    "GioDen": "2025-12-16T19:40",
+    "ThoiGianBay": "4h10m",
+    "SanBay_Di": {
+      "MaSB": "HAN",
+      "TenSB": "Nội Bài International Airport",
+      "IATA_Code": "HAN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Hanoi"
+    },
+    "SanBay_Den": {
+      "MaSB": "HKG",
+      "TenSB": "Hong Kong International Airport",
+      "IATA_Code": "HKG",
+      "QuocGia": "Hong Kong",
+      "ThanhPho": "Hong Kong"
+    },
+    "MayBay": {
+      "MaMB": "A350",
+      "SucChua": 310,
+      "NSX": "Airbus",
+      "MaHHK": "CX"
+    },
+    "HangHangKhong": {
+      "MaHHK": "CX",
+      "TenHHK": "Cathay Pacific",
+      "SDT": "+852 2747 3333",
+      "Website": "https://www.cathaypacific.com",
+      "Email": "customer@cathaypacific.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 3850000
+      }
+    }
+  },
+  {
+    "MaCB": "CX902",
+    "GioDi": "2025-12-16T20:10",
+    "GioDen": "2025-12-16T23:55",
+    "ThoiGianBay": "3h45m",
+    "SanBay_Di": {
+      "MaSB": "HKG",
+      "TenSB": "Hong Kong International Airport",
+      "IATA_Code": "HKG",
+      "QuocGia": "Hong Kong",
+      "ThanhPho": "Hong Kong"
+    },
+    "SanBay_Den": {
+      "MaSB": "HAN",
+      "TenSB": "Nội Bài International Airport",
+      "IATA_Code": "HAN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Hanoi"
+    },
+    "MayBay": {
+      "MaMB": "A350",
+      "SucChua": 300,
+      "NSX": "Airbus",
+      "MaHHK": "CX"
+    },
+    "HangHangKhong": {
+      "MaHHK": "CX",
+      "TenHHK": "Cathay Pacific",
+      "SDT": "+852 2747 3333",
+      "Website": "https://www.cathaypacific.com",
+      "Email": "customer@cathaypacific.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 3920000
+      }
+    }
+  },
+  {
+    "MaCB": "VN511",
+    "GioDi": "2025-12-17T06:15",
+    "GioDen": "2025-12-17T08:00",
+    "ThoiGianBay": "1h45m",
+    "SanBay_Di": {
+      "MaSB": "SGN",
+      "TenSB": "Tân Sơn Nhất International Airport",
+      "IATA_Code": "SGN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Ho Chi Minh City"
+    },
+    "SanBay_Den": {
+      "MaSB": "HAN",
+      "TenSB": "Nội Bài International Airport",
+      "IATA_Code": "HAN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Hanoi"
+    },
+    "MayBay": {
+      "MaMB": "B787",
+      "SucChua": 280,
+      "NSX": "Boeing",
+      "MaHHK": "VN"
+    },
+    "HangHangKhong": {
+      "MaHHK": "VN",
+      "TenHHK": "Vietnam Airlines",
+      "SDT": "+84 1900 1100",
+      "Website": "https://www.vietnamairlines.com",
+      "Email": "support@vietnamairlines.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 2470000
+      }
+    }
+  },
+  {
+    "MaCB": "VN512",
+    "GioDi": "2025-12-17T19:10",
+    "GioDen": "2025-12-17T20:55",
+    "ThoiGianBay": "1h45m",
+    "SanBay_Di": {
+      "MaSB": "HAN",
+      "TenSB": "Nội Bài International Airport",
+      "IATA_Code": "HAN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Hanoi"
+    },
+    "SanBay_Den": {
+      "MaSB": "SGN",
+      "TenSB": "Tân Sơn Nhất International Airport",
+      "IATA_Code": "SGN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Ho Chi Minh City"
+    },
+    "MayBay": {
+      "MaMB": "A321",
+      "SucChua": 230,
+      "NSX": "Airbus",
+      "MaHHK": "VN"
+    },
+    "HangHangKhong": {
+      "MaHHK": "VN",
+      "TenHHK": "Vietnam Airlines",
+      "SDT": "+84 1900 1100",
+      "Website": "https://www.vietnamairlines.com",
+      "Email": "support@vietnamairlines.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 2490000
+      }
+    }
+  },
+  {
+    "MaCB": "VJ621",
+    "GioDi": "2025-12-18T09:30",
+    "GioDen": "2025-12-18T11:00",
+    "ThoiGianBay": "1h30m",
+    "SanBay_Di": {
+      "MaSB": "SGN",
+      "TenSB": "Tân Sơn Nhất International Airport",
+      "IATA_Code": "SGN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Ho Chi Minh City"
+    },
+    "SanBay_Den": {
+      "MaSB": "DAD",
+      "TenSB": "Đà Nẵng International Airport",
+      "IATA_Code": "DAD",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Da Nang"
+    },
+    "MayBay": {
+      "MaMB": "A320",
+      "SucChua": 180,
+      "NSX": "Airbus",
+      "MaHHK": "VJ"
+    },
+    "HangHangKhong": {
+      "MaHHK": "VJ",
+      "TenHHK": "VietJet Air",
+      "SDT": "+84 1900 1886",
+      "Website": "https://www.vietjetair.com",
+      "Email": "support@vietjetair.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 1760000
+      }
+    }
+  },
+  {
+    "MaCB": "VJ622",
+    "GioDi": "2025-12-18T15:50",
+    "GioDen": "2025-12-18T17:20",
+    "ThoiGianBay": "1h30m",
+    "SanBay_Di": {
+      "MaSB": "DAD",
+      "TenSB": "Đà Nẵng International Airport",
+      "IATA_Code": "DAD",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Da Nang"
+    },
+    "SanBay_Den": {
+      "MaSB": "SGN",
+      "TenSB": "Tân Sơn Nhất International Airport",
+      "IATA_Code": "SGN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Ho Chi Minh City"
+    },
+    "MayBay": {
+      "MaMB": "A321",
+      "SucChua": 230,
+      "NSX": "Airbus",
+      "MaHHK": "VJ"
+    },
+    "HangHangKhong": {
+      "MaHHK": "VJ",
+      "TenHHK": "VietJet Air",
+      "SDT": "+84 1900 1886",
+      "Website": "https://www.vietjetair.com",
+      "Email": "support@vietjetair.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 1850000
+      }
+    }
+  },
+  {
+    "MaCB": "VN301",
+    "GioDi": "2025-12-12T06:40",
+    "GioDen": "2025-12-12T08:25",
+    "ThoiGianBay": "1h45m",
+    "SanBay_Di": {
+      "MaSB": "SGN",
+      "TenSB": "Tân Sơn Nhất International Airport",
+      "IATA_Code": "SGN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Ho Chi Minh City"
+    },
+    "SanBay_Den": {
+      "MaSB": "HAN",
+      "TenSB": "Nội Bài International Airport",
+      "IATA_Code": "HAN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Hanoi"
+    },
+    "MayBay": {
+      "MaMB": "B787",
+      "SucChua": 280,
+      "NSX": "Boeing",
+      "MaHHK": "VN"
+    },
+    "HangHangKhong": {
+      "MaHHK": "VN",
+      "TenHHK": "Vietnam Airlines",
+      "SDT": "+84 1900 1100",
+      "Website": "https://www.vietnamairlines.com",
+      "Email": "support@vietnamairlines.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 2550000
+      }
+    }
+  },
+  {
+    "MaCB": "VJ455",
+    "GioDi": "2025-12-12T09:10",
+    "GioDen": "2025-12-12T10:40",
+    "ThoiGianBay": "1h30m",
+    "SanBay_Di": {
+      "MaSB": "HAN",
+      "TenSB": "Nội Bài International Airport",
+      "IATA_Code": "HAN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Hanoi"
+    },
+    "SanBay_Den": {
+      "MaSB": "DAD",
+      "TenSB": "Đà Nẵng International Airport",
+      "IATA_Code": "DAD",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Da Nang"
+    },
+    "MayBay": {
+      "MaMB": "A321",
+      "SucChua": 230,
+      "NSX": "Airbus",
+      "MaHHK": "VJ"
+    },
+    "HangHangKhong": {
+      "MaHHK": "VJ",
+      "TenHHK": "VietJet Air",
+      "SDT": "+84 1900 1886",
+      "Website": "https://www.vietjetair.com",
+      "Email": "support@vietjetair.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 1650000
+      }
+    }
+  },
+  {
+    "MaCB": "QH220",
+    "GioDi": "2025-12-12T13:30",
+    "GioDen": "2025-12-12T15:10",
+    "ThoiGianBay": "1h40m",
+    "SanBay_Di": {
+      "MaSB": "DAD",
+      "TenSB": "Đà Nẵng International Airport",
+      "IATA_Code": "DAD",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Da Nang"
+    },
+    "SanBay_Den": {
+      "MaSB": "SGN",
+      "TenSB": "Tân Sơn Nhất International Airport",
+      "IATA_Code": "SGN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Ho Chi Minh City"
+    },
+    "MayBay": {
+      "MaMB": "A320",
+      "SucChua": 180,
+      "NSX": "Airbus",
+      "MaHHK": "QH"
+    },
+    "HangHangKhong": {
+      "MaHHK": "QH",
+      "TenHHK": "Bamboo Airways",
+      "SDT": "+84 1900 1166",
+      "Website": "https://www.bambooairways.com",
+      "Email": "support@bambooairways.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 3050000
+      }
+    }
+  },
+  {
+    "MaCB": "TR210",
+    "GioDi": "2025-12-12T08:50",
+    "GioDen": "2025-12-12T11:55",
+    "ThoiGianBay": "3h05m",
+    "SanBay_Di": {
+      "MaSB": "SGN",
+      "TenSB": "Tân Sơn Nhất International Airport",
+      "IATA_Code": "SGN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Ho Chi Minh City"
+    },
+    "SanBay_Den": {
+      "MaSB": "SIN",
+      "TenSB": "Changi Airport",
+      "IATA_Code": "SIN",
+      "QuocGia": "Singapore",
+      "ThanhPho": "Singapore"
+    },
+    "MayBay": {
+      "MaMB": "A320",
+      "SucChua": 180,
+      "NSX": "Airbus",
+      "MaHHK": "TR"
+    },
+    "HangHangKhong": {
+      "MaHHK": "TR",
+      "TenHHK": "Scoot Airlines",
+      "SDT": "+65 3157 6434",
+      "Website": "https://www.flyscoot.com",
+      "Email": "support@flyscoot.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 4150000
+      }
+    }
+  },
+  {
+    "MaCB": "CX771",
+    "GioDi": "2025-12-12T15:15",
+    "GioDen": "2025-12-12T19:25",
+    "ThoiGianBay": "4h10m",
+    "SanBay_Di": {
+      "MaSB": "HAN",
+      "TenSB": "Nội Bài International Airport",
+      "IATA_Code": "HAN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Hanoi"
+    },
+    "SanBay_Den": {
+      "MaSB": "HKG",
+      "TenSB": "Hong Kong International Airport",
+      "IATA_Code": "HKG",
+      "QuocGia": "Hong Kong",
+      "ThanhPho": "Hong Kong"
+    },
+    "MayBay": {
+      "MaMB": "A350",
+      "SucChua": 310,
+      "NSX": "Airbus",
+      "MaHHK": "CX"
+    },
+    "HangHangKhong": {
+      "MaHHK": "CX",
+      "TenHHK": "Cathay Pacific",
+      "SDT": "+852 2747 3333",
+      "Website": "https://www.cathaypacific.com",
+      "Email": "customer@cathaypacific.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 3950000
+      }
+    }
+  },
+  {
+    "MaCB": "VN250",
+    "GioDi": "2025-12-11T06:00",
+    "GioDen": "2025-12-11T08:05",
+    "ThoiGianBay": "2h05m",
+    "SanBay_Di": {
+      "MaSB": "SGN",
+      "TenSB": "Tân Sơn Nhất International Airport",
+      "IATA_Code": "SGN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Ho Chi Minh City"
+    },
+    "SanBay_Den": {
+      "MaSB": "HAN",
+      "TenSB": "Nội Bài International Airport",
+      "IATA_Code": "HAN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Hanoi"
+    },
+    "MayBay": {
+      "MaMB": "B787",
+      "SucChua": 280,
+      "NSX": "Boeing",
+      "MaHHK": "VN"
+    },
+    "HangHangKhong": {
+      "MaHHK": "VN",
+      "TenHHK": "Vietnam Airlines",
+      "SDT": "+84 1900 1100",
+      "Website": "https://www.vietnamairlines.com",
+      "Email": "support@vietnamairlines.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 2450000
+      }
+    }
+  },
+  {
+    "MaCB": "VJ128",
+    "GioDi": "2025-12-11T08:45",
+    "GioDen": "2025-12-11T10:55",
+    "ThoiGianBay": "2h10m",
+    "SanBay_Di": {
+      "MaSB": "SGN",
+      "TenSB": "Tân Sơn Nhất International Airport",
+      "IATA_Code": "SGN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Ho Chi Minh City"
+    },
+    "SanBay_Den": {
+      "MaSB": "HAN",
+      "TenSB": "Nội Bài International Airport",
+      "IATA_Code": "HAN",
+      "QuocGia": "Vietnam",
+      "ThanhPho": "Hanoi"
+    },
+    "MayBay": {
+      "MaMB": "A321",
+      "SucChua": 230,
+      "NSX": "Airbus",
+      "MaHHK": "VJ"
+    },
+    "HangHangKhong": {
+      "MaHHK": "VJ",
+      "TenHHK": "VietJet Air",
+      "SDT": "+84 1900 1886",
+      "Website": "https://www.vietjetair.com",
+      "Email": "support@vietjetair.com"
+    },
+    "LoaiVe": {
+      "Economy": {
+        "Gia": 1980000
+      }
+    }
   }
 ]

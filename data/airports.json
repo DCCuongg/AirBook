@@ -21,20 +21,6 @@
     "ThanhPho": "Da Nang"
   },
   {
-    "MaSB": "BKK",
-    "TenSB": "Suvarnabhumi Airport",
-    "IATA_Code": "BKK",
-    "QuocGia": "Thailand",
-    "ThanhPho": "Bangkok"
-  },
-  {
-    "MaSB": "KUL",
-    "TenSB": "Kuala Lumpur International Airport",
-    "IATA_Code": "KUL",
-    "QuocGia": "Malaysia",
-    "ThanhPho": "Kuala Lumpur"
-  },
-  {
     "MaSB": "SIN",
     "TenSB": "Changi Airport",
     "IATA_Code": "SIN",
@@ -42,31 +28,10 @@
     "ThanhPho": "Singapore"
   },
   {
-    "MaSB": "NRT",
-    "TenSB": "Narita International Airport",
-    "IATA_Code": "NRT",
-    "QuocGia": "Japan",
-    "ThanhPho": "Tokyo"
-  },
-  {
-    "MaSB": "ICN",
-    "TenSB": "Incheon International Airport",
-    "IATA_Code": "ICN",
-    "QuocGia": "South Korea",
-    "ThanhPho": "Seoul"
-  },
-  {
-    "MaSB": "LAX",
-    "TenSB": "Los Angeles International Airport",
-    "IATA_Code": "LAX",
-    "QuocGia": "United States",
-    "ThanhPho": "Los Angeles"
-  },
-  {
-    "MaSB": "DXB",
-    "TenSB": "Dubai International Airport",
-    "IATA_Code": "DXB",
-    "QuocGia": "United Arab Emirates",
-    "ThanhPho": "Dubai"
+    "MaSB": "HKG",
+    "TenSB": "Hong Kong International Airport",
+    "IATA_Code": "HKG",
+    "QuocGia": "Hong Kong",
+    "ThanhPho": "Hong Kong"
   }
 ]

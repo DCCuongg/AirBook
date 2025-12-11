@@ -1,0 +1,37 @@
+[
+  {
+    "MaHHK": "VN",
+    "TenHHK": "Vietnam Airlines",
+    "SDT": "+84 1900 1100",
+    "Website": "https://www.vietnamairlines.com",
+    "Email": "support@vietnamairlines.com"
+  },
+  {
+    "MaHHK": "VJ",
+    "TenHHK": "VietJet Air",
+    "SDT": "+84 1900 1886",
+    "Website": "https://www.vietjetair.com",
+    "Email": "support@vietjetair.com"
+  },
+  {
+    "MaHHK": "QH",
+    "TenHHK": "Bamboo Airways",
+    "SDT": "+84 1900 1166",
+    "Website": "https://www.bambooairways.com",
+    "Email": "support@bambooairways.com"
+  },
+  {
+    "MaHHK": "TR",
+    "TenHHK": "Scoot Airlines",
+    "SDT": "+65 3157 6434",
+    "Website": "https://www.flyscoot.com",
+    "Email": "support@flyscoot.com"
+  },
+  {
+    "MaHHK": "CX",
+    "TenHHK": "Cathay Pacific",
+    "SDT": "+852 2747 3333",
+    "Website": "https://www.cathaypacific.com",
+    "Email": "customer@cathaypacific.com"
+  }
+]
