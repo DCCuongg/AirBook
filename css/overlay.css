@@ -1,0 +1,87 @@
+/* ===== OVERLAY ===== */
+#passenger-overlay.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99999;
+}
+
+#passenger-overlay.hidden {
+  display: none;
+}
+
+/* ===== CONTENT ===== */
+#passenger-overlay .overlay-content {
+  width: 420px;
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  position: relative;
+  animation: fadeIn 0.2s ease-out;
+}
+
+#passenger-overlay h2 {
+  margin-top: 0;
+  text-align: center;
+}
+
+#passenger-overlay .form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+#passenger-overlay label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+#passenger-overlay input {
+  padding: 9px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Close button */
+#passenger-overlay .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  font-size: 22px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Confirm */
+#passenger-overlay #confirm-passenger {
+  width: 100%;
+  padding: 10px;
+  background: #2563eb;
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#passenger-overlay #confirm-passenger:hover {
+  background: #1d4ed8;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

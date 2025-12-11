@@ -175,6 +175,9 @@ async function LoadFlightCard(passengers = 1, departureDate = new Date(), from =
 
     list.appendChild(div);
   });
+  document.querySelectorAll(".choose-flight button").forEach(btn => {
+    btn.addEventListener("click", openPassengerOverlay);
+  });
 }
 LoadFlightCard(passengers = 1, departureDate = new Date(), from = "SGN", to = "HAN");
 
@@ -220,8 +223,8 @@ function renderAirports(list, container, input, show) {
 
 
 // Thêm sự kiện
+//thêm sự kiện cho <input type="number"> để tăng giảm số khi scroll chuột
 const numberInputs = document.querySelectorAll('.select-number input[type="number"]');
-
 numberInputs.forEach(input => {
   input.addEventListener('wheel', (e) => {
     // ngăn không cho event lăn trang
@@ -318,4 +321,40 @@ document.querySelector('.search-flight button').addEventListener('click', () => 
 
   LoadFlightCard(passengers, departureDate, from, to);
 });
+
+
+
+//JS — gắn mở/đóng & render dữ liệu overlay
+
+// hiện overlay
+function openPassengerOverlay() {
+  document.getElementById("passenger-overlay").classList.remove("hidden");
+}
+
+// ẩn overlay
+function closePassengerOverlay() {
+  document.getElementById("passenger-overlay").classList.add("hidden");
+}
+
+// bắt sự kiện nút X
+document.querySelector("#passenger-overlay .close-btn")
+  .addEventListener("click", closePassengerOverlay);
+
+// bắt sự kiện nút Confirm
+
+document.getElementById("confirm-passenger").addEventListener("click", () => {
+  const data = {
+    name: document.getElementById("p-name").value,
+    dob: document.getElementById("p-dob").value,
+    id: document.getElementById("p-id").value,
+    phone: document.getElementById("p-phone").value,
+    email: document.getElementById("p-email").value,
+    country: document.getElementById("p-country").value
+  };
+
+  console.log("Passenger Info:", data);
+
+  closePassengerOverlay();
+});
+
 
